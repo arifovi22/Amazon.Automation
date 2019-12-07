@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="TestNg suite">
+
+
+
+
+	<test name="Test Amazon Test">
+<packages>
+<package name="amazonPages.*"></package>
+<package name="testNgPages.*"></package>
+<!-- <package name="amazoneTestStepDefination.*"></package>
+<package name="runCucumberTest.*"></package> -->
+
+
+
+</packages>
+
+		
+		
+
+
+	</test>
+
+
+
+
+</suite>

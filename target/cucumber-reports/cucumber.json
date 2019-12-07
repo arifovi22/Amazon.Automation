@@ -1,0 +1,167 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "I am on the Amazon Home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 375800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the amazon home page",
+            "match": {
+              "location": "CucumberSteps.i_am_on_the_amazon_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-07T19:03:31.325Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11375296800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.getDriver()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "I am on the Amazon Home page and validate the logo",
+        "description": "",
+        "id": "amazon.com-automation;i-am-on-the-amazon-home-page-and-validate-the-logo",
+        "after": [
+          {
+            "result": {
+              "duration": 306968500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 416805900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the amazon home page and validate the amazon logo",
+            "match": {
+              "location": "CucumberSteps.i_am_on_the_amazon_home_page_and_validate_the_amazon_logo()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am on the Amazon Home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 131200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the amazon home page",
+            "match": {
+              "location": "CucumberSteps.i_am_on_the_amazon_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-07T19:03:43.444Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8141135600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.getDriver()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "I am searching on Amazon search box",
+        "description": "",
+        "id": "amazon.com-automation;i-am-searching-on-amazon-search-box",
+        "after": [
+          {
+            "result": {
+              "duration": 4155880000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 361611100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am searching pen in the search box and click search button",
+            "match": {
+              "location": "CucumberSteps.i_am_searching_pen_in_the_search_box_and_click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2748640300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I landed on the search page I saw all the result of pen",
+            "match": {
+              "location": "CucumberSteps.i_saw_all_the_result_of_pen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon.com automation",
+    "description": "",
+    "id": "amazon.com-automation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/allResources/CucumberSmokeRun.feature",
+    "tags": []
+  }
+]
