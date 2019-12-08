@@ -1,5 +1,5 @@
 package amazonPages;
 
-public class MySecondTest {
+public class MyAbcTest {
 
 }
